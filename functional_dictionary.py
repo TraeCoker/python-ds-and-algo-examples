@@ -16,3 +16,11 @@ def dictionary():
         elif message == 'setitem':
             setitem(key, value)
     return dispatch
+
+
+d = dictionary()
+d('setitem', 3, 9)
+d('setitem', 4, 16)
+d('getitem', 3)
+
+d('getitem', 4)
